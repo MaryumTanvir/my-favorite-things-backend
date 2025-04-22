@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dataRoutes = require('./routes/dataRoutes');
 const favoritesRoutes = require('./routes/favoritesRoutes');
+require('dotenv').config();
+
 
 const app = express();
 const PORT = 5000;
